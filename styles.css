@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+h2{
+    font-weight:bold;
+    font-size:5rem;
+    padding:3rem;
+    color: black;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: red;
+}
+
+.day, .hour, .minute, .second{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.waiting{
+    height:auto;
+    width:98.8vw;
+    position: absolute;
+    z-index: -1;
+}
